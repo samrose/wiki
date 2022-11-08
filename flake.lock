@@ -260,8 +260,7 @@
     },
     "root": {
       "inputs": {
-        "dream2nix": "dream2nix",
-        "src": "src"
+        "dream2nix": "dream2nix"
       }
     },
     "rust-analyzer-src": {
@@ -279,18 +278,6 @@
         "ref": "nightly",
         "repo": "rust-analyzer",
         "type": "github"
-      }
-    },
-    "src": {
-      "flake": false,
-      "locked": {
-        "narHash": "sha256-tTjNAg+PM4Cd/bNbhclMzIG04RlAKJeeEOHUFAyEHzQ=",
-        "type": "tarball",
-        "url": "https://registry.npmjs.org/wiki/-/wiki-0.28.0.tgz"
-      },
-      "original": {
-        "type": "tarball",
-        "url": "https://registry.npmjs.org/wiki/-/wiki-0.28.0.tgz"
       }
     }
   },
